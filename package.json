@@ -1,0 +1,19 @@
+{
+  "name": "javascriptmachinelearning",
+  "version": "1.0.0",
+  "description": "As a way to reinforce what I'm learning, I decided to implement simple machine learning algorithms in Javascript.  It's a work in progress, but currently contains a working implementations of: 1. Linear Regression",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcharry/javascriptMachineLearning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcharry/javascriptMachineLearning/issues"
+  },
+  "homepage": "https://github.com/jcharry/javascriptMachineLearning#readme"
+}
