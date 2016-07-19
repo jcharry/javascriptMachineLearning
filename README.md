@@ -2,10 +2,11 @@
 As a way to reinforce what I'm learning, I decided to implement simple machine learning
 algorithms in Javascript.  It's a work in progress, but currently contains
 a working implementations of:
+
 1. Linear Regression
 
 In progress
-** Logistic Regression
+* Logistic Regression
 
 #Notes#
 These algorithms are dependent on [node-sylvester](https://github.com/NaturalNode/node-sylvester)
