@@ -39,5 +39,18 @@ var JHistory = grad.JHistory;
 console.log('Computed Theta');
 console.log(theta);
 
+console.log('\nPredict housing prices');
+var mappedPrediction = Vector.create([1, 1650, 3]).map(function(element, row) {
+    if (row === 1) {
+        return 1;
+    }
+
+    return ((element - mean.e(row - 1)) / sigma.e(row - 1));
+});
+
+var prediction = theta.transpose().multiply(mappedPrediction);
+
+console.log(prediction);
+
 //var J = costFunction(XNorm, y, theta);
 
